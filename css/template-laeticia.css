@@ -9,6 +9,32 @@ body {
     background: #ECECEA;
 
 }
+/************************ ZONING CONTENU ***********************************/
+
+.colonne_laterale {
+    width: 33%;	 /* 25%; */
+    float: left;
+    padding: 0 20px 25px 20px;
+    list-style-type: none;
+
+}
+
+.colonne_contenu {
+    width: 34%;  /* 50%; */
+    float: left;
+    padding: 25px 20px;
+    background: #ECECEA; /* white; */
+}
+
+/* Clear floats after the columns ( à retenir par coeur )*/
+.contenu:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+
+/*********************** FIN ZONING CONTENU *******************************/
 
 
 /* Style en-tête */
@@ -25,7 +51,7 @@ body {
 .menu{
 	padding:1% 2%;
 	text-align: left;
-    background-color: #74AFAD; /*#111;*/
+    background-color: #74AFAD; /* ou #ACECEA;*/
 }
 /*
 .menu li {
@@ -50,27 +76,7 @@ body {
     color:#ECECEA;
 }
 
-.colonne_laterale {
-    width: 33%;	 /* 25%; */
-    float: left;
-    padding: 0 20px 25px 20px;
-    list-style-type: none;
 
-}
-
-.colonne_contenu {
-    width: 34%;  /* 50%; */
-    float: left;
-    padding: 25px 20px;
-    background: #ECECEA; /* white; */
-}
-
-/* Clear floats after the columns */
-.contenu:after {
-    content: "";
-    display: table;
-    clear: both;
-}
 
 .colonne_laterale li {
     list-style:none;
@@ -104,3 +110,19 @@ body {
     0px 2px 2px 0px rgba(255, 255, 255, 0.5);
 border:1px solid #8c8b8b;
 }
+
+/* pour les tout petits ecran */
+
+		/*  Sarcelles le 11.10.23
+         *		
+		 *  la taille de cet écran c 1490px 
+		 *  mais j'ajoute 10px 
+		 *  donc responsive valable pour des ecran un peu plus gd que celui-ci aussi 
+		 * 
+		 *  La police de caractère reste encore difficile mais i suffit de zoomer
+		 *
+		 */
+		   @media screen and (max-width: 1500px) {
+            .en-tete, .contenu, .colonne_laterale, .colonne_contenu, p object{ width: 100%; }
+             
+           }

@@ -77,7 +77,8 @@ code {
 /**************************** DropDown: Cacher/Afficher la réponse ************************************/
 
 /* Rendre toutes les reponses visibles avant l'envoi sur moodle  et activer les question*/
-.reponse { display: block; }
+/* .reponse { display: block; } affiche toutes les  reponses à l'ouverture de la page */
+.reponse { display: none; } /* cache toutes les reponses à l'ouverture de la page */
 .question {background-color: #74AFAD; color: white;} 
 
 /* pour revenir en mode "EXERCICE": virer les 2 lignes précédent et décommenter la ligne suivante */
