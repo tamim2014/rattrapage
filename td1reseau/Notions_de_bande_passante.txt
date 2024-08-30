@@ -1,0 +1,23 @@
+   NOTION DE BANDE PASSANTE
+
+    * En électronique, la bande passante est une plage de frequences inférieure au  seuil minimal de transmission.
+    * En informatique, la bande passante est  le débit binaire maximal d'une voie de transmission.
+  
+    Les définitions semble opposées mais c'est tjrs une tentative de définir l"effective  possibilité de transmission
+    d'un point A vers un un point B
+
+
+ NOTION DE LARGEUR DE BANDE
+
+    * Tout ce qui est supérieure à La "LIMITE D'AMPLITUDE" des composantes fréquenciels d'un signal.
+    * La largeur de bande est une plage de frequences dont l'amplitude reste supérieure à 1 % du maximum du signal .
+    ( ces fréquences du signal sont representées par la "densité spectrale de puissance")
+
+
+ EXEMPLES
+
+    Un système dont la bande passante est 20 Hz–20 kHz convient pour un signal dont la largeur de bande est 20 Hz–16 kHz.
+
+    La petite marge assure que le système traite convenablement les plus hautes fréquences du signal.
+
+ 
